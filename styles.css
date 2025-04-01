@@ -1,3 +1,39 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background: #faf9f8;
+    height: 100px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.header_img {
+    margin: 10px 38px 10px;
+}
+
+ul {
+    display: flex;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+    list-style-type: none;
+    margin-right: 760px;
+}
+
+li {
+    float: left;
+    margin-left: 30px;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: url('responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png'), auto;
+}
+
 .content{
     color:rgba(0,0,0,0.84);
     text-align:left;
