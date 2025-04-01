@@ -62,6 +62,13 @@ p {
     line-height:33px;
 }
 
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}
+
 @media (max-width: 1000px) {
     nav {
         height: max-content;
